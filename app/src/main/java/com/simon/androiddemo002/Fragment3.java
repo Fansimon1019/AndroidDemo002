@@ -10,22 +10,20 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class MainFragment extends Fragment {
+public class Fragment3 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main,container,false);
+        return inflater.inflate(R.layout.fragment_third,container,false);
     }
-
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         setButton(view);
-        //LOL LOL
     }
     private void setButton(View view){
-        Button button = view.findViewById(R.id.next_id);
-        button.setOnClickListener(v -> getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView,new Fragment2()).commit());
+        Button button = view.findViewById(R.id.nextp2_id);
+        //button.setOnClickListener(v -> getParentFragmentManager().beginTransaction().replace(R.id.fragmentContainerView,new Fragment3()).commit());
     }
 }

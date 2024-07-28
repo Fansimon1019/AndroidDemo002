@@ -22,7 +22,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:text="Minecraft is a 3D sandbox game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities. Its diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are four actively maintained editions of Minecraft: Java Edition, Bedrock Edition, Minecraft Education and China Edition."
+        android:text="Minecraft是用Java写成的，尽管其源代码经过混淆，但社区已经了解Minecraft的大多数代码是如何运作的。Notch给出了关于Minecraft所使用的NBT格式笔记。对此，社区已经得到了使用NBT格式文件的信息。"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
