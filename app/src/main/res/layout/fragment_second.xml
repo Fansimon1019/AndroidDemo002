@@ -17,25 +17,15 @@
         app:layout_constraintVertical_bias="0.185"
         app:srcCompat="@drawable/minecraft" />
 
-    <Button
-        android:id="@+id/next_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.466" />
-
     <TextView
         android:id="@+id/aboutq_id"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Information from Minecraft wiki"
-        app:layout_constraintBottom_toTopOf="@+id/next_id"
+        android:padding="30dp"
+        android:text="Minecraft is a 3D sandbox game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities. Its diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are four actively maintained editions of Minecraft: Java Edition, Bedrock Edition, Minecraft Education and China Edition."
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
